@@ -29,6 +29,16 @@
   margin-left: 18%;
 }
 
+#clearfix{
+  overflow: auto;
+}
+
+#left{
+  float:left;
+}
+#right{
+  float:right;
+}
 .headlink{
   font-size: 200%;
   text-align: center;
@@ -37,9 +47,9 @@
 }
 
 .allarticle{
-width: 47%;
+width: 45%;
 margin: 3px;
-max-height: 40%;
+max-height: 400px;
 overflow: auto;
 }
 .article{
