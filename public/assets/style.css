@@ -1,0 +1,134 @@
+.container{
+  box-sizing: border-box;
+  padding: 1% 8% 1% 8%;
+}
+.flex{
+  display: flex;
+  flex-flow: wrap;
+  width: 100%;
+}
+
+.head{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: arial;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.borderedblue{
+  border: 1px solid blue;
+  color: white;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+.artimage{
+  margin-left: 18%;
+}
+
+.headlink{
+  font-size: 200%;
+  text-align: center;
+  padding: 2px;
+  margin: 0px;
+}
+
+.allarticle{
+width: 47%;
+margin: 3px;
+max-height: 40%;
+overflow: auto;
+}
+.article{
+  width:30%;
+  margin: 3px;
+}
+
+.articlenew{
+width: 60%;
+}
+
+.none{
+
+}
+footer{
+  text-align: center;
+  font-style: italic;
+  font-family: sans-serif;
+  }
+
+  .center{
+    text-align: center;
+  }
+
+.bordered{
+  border: 1px solid red;
+  color: white;
+  border-radius: 20px;
+}
+
+.button{
+  border: 2px solid blue;
+  color: white;
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
+  background-color:black;
+}
+.nav{
+  background-color: black;
+  width: 100%;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+hr{
+  background-color: red;
+  color: red;
+  border-color: red;
+}
+.text{
+  width: 50%;
+}
+.ucl{
+width: 8%;
+}
+.profile{
+  width: 45%;
+  vertical-align: top;
+  text-align: right;
+}
+.description{
+  width: 100%;
+  text-align: center;
+}
+.descriptio{
+  width: 50%;
+}
+
+.main{
+text-align: center;
+width: 80%
+}
+body{
+  background-color: black;
+  color: white;
+}
+
+.logo{
+  vertical-align: bottom;
+  width: 12%;
+}
+.clearfix{
+  overflow: auto;
+}
+img{
+  width: 100%;
+  height: 100%;
+}

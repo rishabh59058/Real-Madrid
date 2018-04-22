@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Real Madrid
+  </title>
+  <meta name="viewport" content="width= device-width, initial-scale= 1.0">
+  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="stylesheet" media="screen and (max-width:750px)" href="/assets/style2.css">
+</head>
+<body>
+  <div class="container">
+    <header class="none">
+      <div class="nav clearfix">
+          <a href="/"><div class="logo left">
+            <img src="https://i.pinimg.com/236x/d7/43/07/d7430750f46165ac8b60d01e706ec7cd--real-madrid-soccer-soccer-logo.jpg" alt="Sorry! Image not available" />
+</div>
+</a>
+        <div class="profile right">
+          <h1>
+            Real Madrid
+          </h1>
+          <h3>
+            Halla Madrid!
+          </h3>
+        </div>
+        <div class="ucl right">
+          <img src="/assets/Images/ucl.jpg" alt="Sorry! Image not available" />
+        </div>
+      </div>
+      <hr />
+    </header>
+
+<article>
+  <h2 class="center"><%=dataa[0].head %></h2>
+  <p class="articlenew border artimage">
+    <img src="<%=dataa[0].img %>"/>
+  </p>
+  <div class="border center">
+    <%=dataa[0].art %>
+    <p class="center">
+  <iframe width="500" height="400"
+src="<%=dataa[0].url %>">
+</iframe>
+</p>
+  <a href="/allarticle">See more news and articles</a>
+</article>
+    <footer class="clearfix">
+      <div class="left">Contact: rishabh59058@gmail.com</div>
+      <div class="right">
+        <a href="./tnc">Terms and conditions</a>
+    </div>
+    </footer>
+  </div>
+</body>
+</html>

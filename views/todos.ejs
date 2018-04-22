@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>
+ToDo app
+</title>
+<script src="http://code.jquery.com/jquery-1.12.3.min.js"></script>
+<script src="/assets/todo-list.js"></script>
+<link href="/assets/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="todo-table">
+<form>
+<input type="text" name="head" placeholder="Heading of article.. " required>
+<input type="text" name="art" placeholder="Article" required>
+<input type="text" name="img" placeholder="Image link" required>
+<input type="text" name="url" placeholder="Youtube link" required>
+<button type="submit">Add Item</button>
+</form>
+</div>
+<ul>
+<% for(var i=0;i<dataa.length;i++){%>
+<li><%=dataa[i].head %></li>
+<%}%>
+</ul>
+</body>
+</html>
